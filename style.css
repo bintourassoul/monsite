@@ -1,0 +1,298 @@
+body {
+    padding: 0 2%;
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: grey;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+header h1 span {
+    color: rgb(46, 214, 158);
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+}
+nav ul li a:hover {
+    color:rgb(46, 214, 158) ;
+    text-decoration: underline;
+}
+nav span {
+    color: rgb(46, 214, 158);
+}
+.section1 {
+    text-align: center;
+    margin: 80px auto;
+}
+.section1 h2 {
+    color: rgb(46, 214, 158) ;
+    font-size: 30px;
+}
+.section1 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: grey;
+}
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 80px 200px;
+    
+}
+.carte1 {
+    background-color: rgb(46, 214, 158);
+    padding: 40px 20px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.carte2 {
+    background-color: rgb(101, 19, 233);
+    padding:40px 20px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.carte3 {
+    background-color: rgb(20, 24, 23);
+    padding: 32px 20px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    margin-left: 220px;
+    margin-right: 200px;
+}
+.partie1 {
+    color: rgb(46, 214, 158) ;
+    
+}
+.partie2 {
+    color: grey;
+    cursor: pointer;
+}
+.partie2:hover {
+    color: rgb(46, 214, 158);
+}
+.partie3 {
+    color: grey;
+    cursor: pointer;
+}
+.partie3:hover {
+    color: rgb(46, 214, 158);
+}
+.partie4 {
+    color: grey;
+    cursor: pointer;
+}
+.partie4:hover {
+    color: rgb(46, 214, 158);
+}
+.partie5 {
+    color: grey;
+    cursor: pointer;
+}
+.partie5:hover {
+    color: rgb(46, 214, 158);
+}
+.blocs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   background-color: lightblue;
+    
+}
+.bloc1 {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bloc1 h4 {
+    color: rgb(46, 214, 158);
+    font-size: 35px;
+    
+}
+.bloc1 p {
+    color: grey;
+}
+.bloc1 img {
+    width: 300px;
+    height: 300px;
+} 
+.bloc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin: 10px;
+    padding: 50px;
+    background-color: white;  
+}
+.bloc2 {
+    margin-top: 20px;
+}
+.section5 {
+    text-align: center;
+}
+.textes h4 {
+    color: rgb(46, 214, 158);
+    font-size: 30px;
+    font-weight: lighter;
+}
+.textes p {
+    color: grey;
+}
+.images {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+.image7 {
+    margin-right: 328px;
+}
+.image8 {
+    padding: 0px;
+}
+.image1 p span {
+    color: grey;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.image1 button {
+    color: white;
+    font-weight: bold;
+    background-color:rgb(8, 31, 75) ;
+    border: none;
+}
+.image2 p span {
+    color: grey;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.image2 button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(8, 31, 75);
+    border: none;
+}
+.image3 p span {
+    color: grey;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.image3 button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(8, 31, 75);
+    border: none;
+}
+.image4 p span {
+    color: grey;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.image4 button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(8, 31, 75) ;
+    border: none;
+}
+.image5 p span {
+    color: grey;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.image5 button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(8, 31, 75) ;
+    border: none;
+}
+.image6 p span {
+    color: grey;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.image6 button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(8, 31, 75) ;
+    border: none;
+}
+.image7 p span {
+    color: grey;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.image7 button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(8, 31, 75);
+    border: none;
+}
+.image8 p span {
+    color: grey;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.image8 button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(8, 31, 75);
+    border: none;
+}
+.para {
+    text-align: center;
+}
+.para span {
+    font-size: 35px;
+    color: grey;
+}
+.para button {
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 1%;
+}
+.end {
+    text-align: center;
+    margin-top: 90px;
+    color: grey;
+    font-size: 13px;
+}
+.end span {
+    color: blue;
+}

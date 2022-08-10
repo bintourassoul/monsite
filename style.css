@@ -145,9 +145,8 @@ nav span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 100px;
-    margin: 10px;
-    padding: 50px;
+    margin: 20px 20px 50px 50px;;
+    padding: 20px 20px 100px 100px;
     background-color: white;  
 }
 .bloc2 {
